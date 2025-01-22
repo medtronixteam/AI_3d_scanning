@@ -4,13 +4,15 @@
 /node_modules
 /.pnp
 .pnp.js
-
+.env 
 # testing
-/coverage
+/coverage 
 
 # production
 /build
-src/Assets/3dModal.mp4
+/src/Assets/3dModal (1).mp4
+/src/Assets/3dModal (2).mp4
+/src/Assets/3dModal.mp4
 # misc
 .DS_Store
 .env.local

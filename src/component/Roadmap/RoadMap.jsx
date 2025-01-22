@@ -133,7 +133,7 @@ const RoadMap = () => {
             </div>
             <div className="tl-item tl-year-wrap">
               <span className="tl-year-back"></span>
-              <span className="tl-year">2024</span>
+              <span className="tl-year">2025</span>
             </div>
             <div className="tl-item">
               <span className="tl-date">Stage 1</span>
