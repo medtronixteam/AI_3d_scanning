@@ -98,14 +98,13 @@ const B2B = () => {
       })
       .catch((error) => {
         setApiSuccess(false);
-        setApiMessage("Error submitting the form.");
-        console.error("Error submitting the form:", error);
+        setApiMessage("Something went wrong. Please try again.");
       });
   };
 
   useEffect(() => {
     sessionStorage.removeItem("modalClosed");
-    
+
     const modalClosed = sessionStorage.getItem("modalClosed");
     if (!modalClosed) {
       setShowPopup(true);
@@ -303,8 +302,8 @@ const B2B = () => {
                     <div
                       className={`waitlist-api-message ${
                         apiSuccess
-                          ? "waitlist-success-message"
-                          : "waitlist-error-message"
+                          ? "waitlist-error-message"
+                          : "waitlist-success-message"
                       }`}>
                       {apiMessage}
                     </div>
@@ -365,7 +364,6 @@ const B2B = () => {
                         value={value.country}
                         onChange={handleChange}
                       />
-                      {/* <label htmlFor="country">Country Name</label> */}
                       {errors.country && (
                         <p className="error-text">{errors.country}</p>
                       )}
