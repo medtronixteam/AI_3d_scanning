@@ -2,23 +2,22 @@ import React from "react";
 import "./ExecutiveTeam.css";
 import Mrjoel from "../../Assets/Mr joel.png";
 import Ceo from "../../Assets/Ceo.png";
+import { AiFillLinkedin } from "react-icons/ai";
+
 const ExecutiveTeam = () => {
   const teamMembers = [
     {
       name: "Arslan Ahmed",
       position: "CEO",
       image: Ceo,
+      linkedin: "https://www.linkedin.com/in/arslan-ahmad-4b123a1b5/",
     },
     {
       name: "Joel Hillier",
       position: "Co-founder",
       image: Mrjoel,
+      linkedin: "https://www.linkedin.com/in/joelhillier",
     },
-    // {
-    //   name: "Ali Khan",
-    //   position: "Head of AI",
-    //   image: "https://via.placeholder.com/100",
-    // },
   ];
 
   return (
@@ -36,7 +35,11 @@ const ExecutiveTeam = () => {
                 loading="lazy"
               />
             </div>
-            <h3 className="team-name">{member.name}</h3>
+            <h3 className="team-name">
+              <a href={member.linkedin} target="_blank" rel="noopener noreferrer">
+                {member.name} <AiFillLinkedin id="linkedin-icon"/>
+              </a>
+            </h3>
             <p className="team-position">{member.position}</p>
           </div>
         ))}

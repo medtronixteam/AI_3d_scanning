@@ -11,7 +11,9 @@
   color: #c72f81;
   margin-bottom: 30px;
 }
-
+#linkedin-icon{
+  margin-top: -3px !important;
+}
 .sub-heading {
   text-align: center;
   color: white;

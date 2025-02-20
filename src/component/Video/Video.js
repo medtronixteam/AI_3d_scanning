@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import modalAI from "../../Assets/3dModal.mp4";
+import modalAI from "../../Assets/3dModal2.mp4";
 const Video = () => {
   const videoRef = useRef(null);
 

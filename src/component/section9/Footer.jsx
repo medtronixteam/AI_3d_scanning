@@ -44,7 +44,7 @@ const Footer = () => {
             <li>
               <span>
                 <IoCall style={{ marginRight: "4px" }} />
-                +92-344-3228863
+                <a href="tel:+12088076899">+12088076899</a>
               </span>
             </li>
             <li>
@@ -74,8 +74,7 @@ const Footer = () => {
         <hr />
         <div className="copy-right mb-3">
           <p>
-            Copyright © Powered by AI 3D Scanning Solutions Private Ltd. All
-            rights reserved.
+            Copyright © Powered by  AI 3D Scanning Solutions Inc.
           </p>
         </div>
       </div>
