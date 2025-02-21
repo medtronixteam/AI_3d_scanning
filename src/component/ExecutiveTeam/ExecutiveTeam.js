@@ -13,7 +13,7 @@ const ExecutiveTeam = () => {
       linkedin: "https://www.linkedin.com/in/arslan-ahmad-4b123a1b5/",
     },
     {
-      name: "Joel Hillier",
+      name: "Dr Joel Hillier",
       position: "Co-founder",
       image: Mrjoel,
       linkedin: "https://www.linkedin.com/in/joelhillier",
