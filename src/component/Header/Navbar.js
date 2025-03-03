@@ -1,14 +1,11 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom"; // Import Link from react-router-dom
 import "./Navbar.css";
 import logo from "../../Assets/logo2.png";
+import { Link } from "react-router-dom";
 
-const CustomNavbar = () => {
+const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const handleScheduleMeeting = () => {
-    const meetingLink = "https://calendly.com/arslan-medtronix/30min";
-    window.open(meetingLink, "_blank");
-  };
+
   return (
     <header className="custom-navbar">
       <div className="custom-navbar-container">
@@ -40,28 +37,13 @@ const CustomNavbar = () => {
           className={`custom-nav-links ${menuOpen ? "custom-nav-active" : ""}`}>
           <ul>
           <li>
-              <a href="#" onClick={handleScheduleMeeting}>Schedule Meeting</a>
+              <Link to="/">Home</Link> 
             </li>
-            <li>
-              <Link to="/join-list">Join Waitlist</Link>
-            </li>
-            <li>
-              <a href="#services">Services</a>
-            </li>
-            <li>
-              <a href="#sample">3D Samples</a>
-            </li>
-            <li>
-              <a href="#team">Leadership</a>
-            </li>
-            {/* <li>
-              <a href="#contact">Join Waitlist</a>
-            </li> */}
           </ul>
-        </nav>
+        </nav>  
       </div>
     </header>
   );
 };
 
-export default CustomNavbar;
+export default Header;

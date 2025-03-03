@@ -7,6 +7,7 @@ import Constrution from "../../Assets/Constrution.png";
 import Gaming from "../../Assets/Gaming.png";
 import Ecommerce from "../../Assets/E_Comerce.png";
 import Health from "../../Assets/helthcare.png";
+import { Link } from "react-router-dom";
 
 const B2B = () => {
   const [showPopup, setShowPopup] = useState(false);
@@ -281,11 +282,11 @@ const B2B = () => {
                   </button>
                 </div>
 
-                <button
+               <Link to="/join-list"> <button
                   className="show-waitlist-btn"
-                  onClick={handleGoToWaitlist}>
+                 >
                   Join Our Waitlist
-                </button>
+                </button></Link>
               </div>
             ) : (
               <div className="container  ">

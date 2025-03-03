@@ -121,9 +121,9 @@ const RoadMap = () => {
     <>
       <div className="container mb-40" id="contact">
         <div className="row align-items-center">
-          <div className="col-12 col-md-6">
+          <div className="col-md-12 ">
             <div className="tl-header">
-              <h1>Our Roadmap</h1>
+              <h1 style={{ textAlign: "center" }}>Our Roadmap</h1>
             </div>
             <div className="tl-item">
               <div className="tl-circle"></div>
@@ -178,7 +178,7 @@ const RoadMap = () => {
               <div className="tl-end"></div>
             </div>
           </div>
-          <div className="col-12 col-md-6">
+          {/* <div className="col-12 col-md-6">
             <div className="container waitlist-container">
               <form className="form" onSubmit={handleSubmit}>
                 <div className="descr">Wait List</div>
@@ -269,7 +269,7 @@ const RoadMap = () => {
                 <button type="submit">Submit →</button>
               </form>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="float-end"></div>
