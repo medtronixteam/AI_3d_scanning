@@ -11,7 +11,10 @@
   color: white;
   height: 370px;
 }
-
+#card4{
+ 
+  width: 45% !important;
+}
 .section-5 .card:hover {
   background-color: #3e2b3f69;
 }

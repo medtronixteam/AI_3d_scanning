@@ -5,7 +5,7 @@ import "react-lazy-load-image-component/src/effects/blur.css";
 
 import card2 from "../../Assets/Card2.png";
 import card3 from "../../Assets/Card3.png";
-import card4 from "../../Assets/Card4.png";
+import card4 from "../../Assets/monster.png";
 
 const Card = () => {
   const videoRef = useRef(null);
@@ -67,6 +67,7 @@ const Card = () => {
                 </p>
                 <LazyLoadImage
                   src={card4}
+                  id="card4"
                   alt="PROMPT TO 3D"
                   className="img-fluid"
                   effect="blur"

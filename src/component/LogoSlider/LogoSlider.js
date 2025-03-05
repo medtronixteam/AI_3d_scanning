@@ -7,8 +7,9 @@ import logo4 from "../../Assets/logo4.png";
 import logo5 from "../../Assets/logo5.png";
 import logo6 from "../../Assets/logo10.png";
 import logo7 from "../../Assets/logo7.png";
+import vera from "../../Assets/vira.png";
 
-const logos = [logo4, logo1, logo3, logo5, logo6, logo7];
+const logos = [logo4, logo1, logo3, logo5, logo6, logo7, vera];
 
 const LogoSlider = () => {
   useEffect(() => {

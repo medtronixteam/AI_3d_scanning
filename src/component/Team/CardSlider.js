@@ -12,13 +12,14 @@ import Sajeel from "../../Assets/Sajeel.png";
 import Akash from "../../Assets/akash.png";
 import hassnain from "../../Assets/ali hassnain.png";
 import zeeshan from "../../Assets/zeeshan.png";
-import mubashir from "../../Assets/mubashir.png";
+import Ibrahim from "../../Assets/Ibrahim.png";
 import usman from "../../Assets/usman.png";
 import ryan from "../../Assets/ryan.png";
 import umer from "../../Assets/umer.png";
 import shewar from "../../Assets/shewar.png";
 import hira from "../../Assets/Hira.png";
-
+import junaid from "../../Assets/junaid.png";
+import hamza from "../../Assets/hamza.png";
 const CardSlider = () => {
   const sliderSettings = {
     dots: true,
@@ -92,9 +93,9 @@ const CardSlider = () => {
       image: Haseeb,
     },
     {
-      title: "M.Mubashir",
-      description: "App Developer",
-      image: mubashir,
+      title: "M Ibrahim ",
+      description: "Flutter developer",
+      image: Ibrahim,
     },
     {
       title: "Usman Khalid",
@@ -106,6 +107,18 @@ const CardSlider = () => {
       description: "Graphics Designer",
       image: shewar,
     },
+    {
+      title: "M Junaid Tayyab",
+      description: "Strategic Growth Partne",
+      image: junaid,
+    },
+    {
+      title: "M.Hamza",
+      description: "AI Engineer",
+      image: hamza,
+    },
+
+
   ];
 
   return (
