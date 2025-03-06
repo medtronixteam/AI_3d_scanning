@@ -109,7 +109,7 @@ const CardSlider = () => {
     },
     {
       title: "M Junaid Tayyab",
-      description: "Strategic Growth Partne",
+      description: "Strategic Growth Partner",
       image: junaid,
     },
     {
