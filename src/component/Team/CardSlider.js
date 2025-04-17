@@ -19,7 +19,9 @@ import umer from "../../Assets/umer.png";
 import shewar from "../../Assets/shewar.png";
 import hira from "../../Assets/Hira.png";
 import junaid from "../../Assets/junaid.png";
-import hamza from "../../Assets/hamza.png";
+import Ikram from "../../Assets/Ikram.png";
+import ilyas from "../../Assets/Ilyas.png"
+import mudasir from "../../Assets/mudasir.png"
 const CardSlider = () => {
   const sliderSettings = {
     dots: true,
@@ -67,11 +69,13 @@ const CardSlider = () => {
       description: "AI Engineer",
       image: ryan,
     },
+    
     {
-      title: "M.Umer ",
+      title: "Ikram Elahi Hashmi ",
       description: "AI Engineer",
-      image: umer,
+      image: Ikram,
     },
+    
     {
       title: "Hira Aziz ",
       description: "Video Animator",
@@ -92,6 +96,7 @@ const CardSlider = () => {
       description: "MERN Stack Developer",
       image: Haseeb,
     },
+
     {
       title: "M Ibrahim ",
       description: "Flutter developer",
@@ -113,9 +118,18 @@ const CardSlider = () => {
       image: junaid,
     },
     {
-      title: "M.Hamza",
+      title: "Mudassar Farooq",
+      description: "COO",
+      image: mudasir,
+    }, {
+      title: "Samia Rasheed",
+      description: "Social Media Manager",
+      image: umer,
+    },
+    {
+      title: "Ilyas Hussain ",
       description: "AI Engineer",
-      image: hamza,
+      image: ilyas,
     },
 
 
