@@ -15,13 +15,13 @@ import zeeshan from "../../Assets/zeeshan.png";
 import Ibrahim from "../../Assets/Ibrahim.png";
 import usman from "../../Assets/usman.png";
 import ryan from "../../Assets/ryan.png";
-import umer from "../../Assets/umer.png";
 import shewar from "../../Assets/shewar.png";
 import hira from "../../Assets/Hira.png";
 import junaid from "../../Assets/junaid.png";
 import Ikram from "../../Assets/Ikram.png";
 import ilyas from "../../Assets/Ilyas.png"
 import mudasir from "../../Assets/mudasir.png"
+import samia from "../../Assets/samia.png"
 const CardSlider = () => {
   const sliderSettings = {
     dots: true,
@@ -124,7 +124,7 @@ const CardSlider = () => {
     }, {
       title: "Samia Rasheed",
       description: "Social Media Manager",
-      image: umer,
+      image: samia,
     },
     {
       title: "Ilyas Hussain ",
